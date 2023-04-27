@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.a{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: color #eff4fd;;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(96, 51, 202);
+}
+
+
+.page_container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    border: 2px solid red;
+    padding: 5px;
+    
+
+}
+
+.detail_text {
+    border: 2px solid blue;
+
+}
+
+.detail h1{
+    font-size: 50px;
+    color: rgb(0, 7, 13);
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(54, 142, 214);
+}
+
+.image_container{
+
+    border: 2px solid green;
+    
+}
+
+  /* .bikso{
+    display: flex;
+  }
+  .item{ width: 50vw;
+    height: 30vh;
+    border: 1px solid rgba(22, 6, 6, 0.2);
+    flex-wrap: wrap;
+    background: rgb(95, 140, 212);
+    text-align: center;
+    font-style: oblique;
+  } */
+.skill_container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+    margin-left: 80px;
+}
+  .h3{
+    text-align: right;
+  }
+
+  .icon_container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+    margin-left: 80px;
+}
+  
+  .icon_container > a {  
+    padding: 0%;  
+  text-align: center;  
+    margin: 10px 10px;  
+    font-size: 70px;  
+    width: 80px;  
+    border-radius: 100px;
+  }  
+.fa-facebook {  
+    background: #111112;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #141414;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #0e0f0f;  
+    color: white;  
+  }  
+  .fa-youtube {  
+    background: #1f1e1e;  
+    color: white;  
+  }  
+  .fa:hover {  
+      opacity: 2;  
+  }  
